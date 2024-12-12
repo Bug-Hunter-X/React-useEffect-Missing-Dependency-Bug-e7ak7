@@ -1,0 +1,2 @@
+# React useEffect Missing Dependency
+This example demonstrates a common error in React's `useEffect` hook: a missing dependency in the dependency array.  This can lead to unexpected behavior, particularly when dealing with timers or asynchronous operations.  The counter keeps incrementing even after the component unmounts due to a missing `count` dependency.
